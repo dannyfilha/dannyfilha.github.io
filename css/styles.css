@@ -1,0 +1,208 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #e0e0e0;
+}
+
+.menu-mobile {
+    display: none;
+}
+
+.container {
+    width: 80%;
+    margin: 30px auto;
+    background-color: white;
+}
+
+.topo {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background: linear-gradient(
+        to right,
+        #00BFFF 0%,
+        #00BFFF 49%,
+        white 50%,
+        #808080 51%,
+        #808080 100%
+    );
+}
+
+.topo-menu {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.menu {
+    list-style: none;
+}
+
+.item-menu {
+    margin-bottom: 5px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+}
+
+.botao-menu {
+    display: none;
+}
+
+.topo-foto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.foto {
+    height: 90%;
+    border-radius: 50%;
+}
+
+.topo-nome {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.conteudo {
+    padding: 0 30px;
+}
+
+.titulo-secao {
+    color: #00BFFF;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #00BFFF;
+}
+
+.item-formacao {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.item-titulo {
+    margin-right: 20px;
+}
+
+.img-item {
+    width: 80px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.rodape {
+    display: flex;
+    color: white;
+    margin-top: 20px;
+}
+
+.rodape .titulo-rodape {
+    border-bottom: 1px solid white;
+    margin-bottom: 15px;
+}
+
+.rodape-social {
+    background: #808080;
+    flex: 1;
+    padding: 20px 10px;
+}
+
+.rodape-social a {
+    text-decoration: none;
+    color: white;
+}
+
+.rodape-endereco {
+    background: #00BFFF;
+    flex: 1;
+    padding: 20px 10px;
+}
+
+/* TABLET */
+@media screen and (max-width: 700px) {
+	.container {
+        width: 100%;
+        margin: 0px;
+    }
+}
+
+/* CELULAR */
+@media screen and (max-width: 480px) {
+    .menu-mobile {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.9);
+    }
+
+    .items-menu-mobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    .items-menu-mobile a {
+        text-decoration: none;
+        color: white;
+        font-size: 25px;
+    } 
+
+	.topo {
+        display: flex;
+        flex-direction: column-reverse;
+        color: white;
+        background: linear-gradient(
+            to bottom,
+            #00BFFF 0%,
+            #00BFFF 49%,
+            white 50%,
+            #808080 51%,
+            #808080 100%
+        );
+    }
+
+    .topo-nome {
+        margin: 10px 0;
+    }
+
+    .area-menu {
+        display: none;
+    }
+
+    .botao-menu {
+        display: block;
+        margin: 10px 0;
+        padding: 5px 30px;
+        text-decoration: none;
+        color: white;
+    }
+
+    .item-formacao {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .item-titulo {
+        flex: 1;
+    }
+
+    .descricao-item {
+        margin-top: 10px;
+    }
+}

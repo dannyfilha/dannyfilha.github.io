@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo</title>
+
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div id="menu-mobile" class="menu-mobile">
+        <div class="items-menu-mobile">
+            <div class="item-menu"><a href="#formacao" onclick="closeMenu()"><i class="fa fa-graduation-cap"></i> Formação</a></div>
+            <div class="item-menu"><a href="#experiencia" onclick="closeMenu()"><i class="fa fa-briefcase"></i> Experiência Profissional</a></div>
+            <div class="item-menu"><a href="#objetivo" onclick="closeMenu()"><i class="fa fa-bullseye"></i> Objetivo</a></div>
+            <div class="item-menu"><a href="#rodape" onclick="closeMenu()"><i class="fa fa-thumbs-up"></i> Contatos e Endereço</a></div>
+            <div class="item-menu"><a onclick="closeMenu()"><i class="fa fa-times"></i> Fechar Menu</a></div>
+        </div>
+    </div>
+
+    <div class="container">
+        <header class="topo">
+            <div class="topo-menu">
+                <div id="area-menu" class="area-menu">
+                    <ul class="menu">
+                        <li class="item-menu"><a href="#formacao"><i class="fa fa-graduation-cap"></i> Formação</a></li>
+                        <li class="item-menu"><a href="#experiencia"><i class="fa fa-briefcase"></i> Experiência Profissional</a></li>
+                        <li class="item-menu"><a href="#objetivo"><i class="fa fa-bullseye"></i> Objetivo</a></li>
+                        <li class="item-menu"><a href="#rodape"><i class="fa fa-thumbs-up"></i> Contatos e Endereço</a></li>
+                    </ul>
+                </div>
+                <a id="botaoMenuMobile" class="botao-menu" href="#"><i class="fa fa-bars"></i> Menu</a>
+            </div>
+            <div class="topo-foto">
+                <img class="foto" src="img/foto.jpg" alt="Foto do perfil">
+            </div>
+            <div class="topo-nome">
+                <h1>Daniele Pinheiro</h1>
+                <p>Analista de Sistemas</p>
+            </div>
+        </header>
+
+        <div class="conteudo">
+            <div id="formacao">
+                <h2 class="titulo-secao"><i class="fa fa-graduation-cap"></i> Formação</h2>
+                <div class="item-formacao">
+                    <img class="img-item" src="img/fmf.png" alt="Logo Faculdade Martha Falcão">
+                    <div class="item-titulo">
+                        <h4>Martha Falcão</h4>
+                        <p>2022 - 2024</p>
+                    </div>
+                    <div class="descricao-item">
+                        <h4>Análise e Desenvolvimento de Sistemas</h4>
+                        <p>Atualmente estou no 2º período</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="item-formacao">
+                    <img class="img-item" src="img/fucapi.png" alt="Logo Escola Técnica Fucapi">
+                    <div class="item-titulo">
+                        <h4>Fucapi</h4>
+                        <p>2012 - 2013</p>
+                    </div>
+                    <div class="descricao-item">
+                        <h4>Técnico Administrativo</h4>
+                        <p>O curso foi focado em departamento pessoal</p>
+                    </div>
+                </div>
+                <hr>
+            </div>
+
+            <div id="experiencia">
+                <h2 class="titulo-secao"><i class="fa fa-briefcase"></i> Experiência Profissional</h2>
+                <div class="item-formacao">
+                    <img class="img-item" src="img/multilaser.png" alt="Logo Multilaser">
+                    <div class="item-titulo">
+                        <h4>Multilaser</h4>
+                        <p>2019 - Atual</p>
+                    </div>
+                    <div class="descricao-item">
+                        <h4>Líder Técnico</h4>
+                        <p>Trabalhando diretamente com a equipe de desenvolvimento</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="item-formacao">
+                    <img class="img-item" src="img/honda.png" alt="Logo Honda">
+                    <div class="item-titulo">
+                        <h4>Honda</h4>
+                        <p>2010 - 2018</p>
+                    </div>
+                    <div class="descricao-item">
+                        <h4>Auxiliar de produção</h4>
+                        <p>Atuando na montagem de motocicletas</p>
+                    </div>
+                </div>
+                <hr>
+            </div>
+
+            <div id="objetivo">
+                <h2 class="titulo-secao"><i class="fa fa-bullseye"></i> Objetivo</h2>
+                <p>
+                    Coloco-me à disposição para trabalhar na área de vendas dessa empresa. Tenho experiência na análise das necessidades dos clientes, habilidades de atendimento pós-venda e disponibilidade para viagens. 
+                </p>
+            </div>
+        </div>
+
+        <footer id="rodape" class="rodape">
+            <div class="rodape-social">
+                <h3 class="titulo-rodape"><i class="fa fa-thumbs-up"></i> Contatos</h3>
+                <p><a href="tel:92993454567">(92) 9 99345-4567</a></p>
+                <p><a href="https://www.instagram.com/">@daniele_pinheiro</a></p>
+            </div>
+            <div class="rodape-endereco">
+                <h3 class="titulo-rodape"><i class="fa fa-map"></i> Endereço</h3>
+                <p>Rua Amazonas, 45</p>
+                <p>Bairro Coroado</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
